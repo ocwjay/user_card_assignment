@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    padding: 100px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+}
+
+.blueTop {
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid cornflowerblue;
+    margin: 0 0 60px 0;
+}
+
+#avatarIcon {
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.content {
+    margin: 0 0 50px 50px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location p {
+    margin: 5px 10px 5px 10px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit a {
+    margin: 5px 10px 5px 10px;
+}
+
+#mapPin {
+    width: 10px;
+}
+
+#gearIcon {
+    width: 15px;
+}
